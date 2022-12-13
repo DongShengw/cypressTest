@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-11-22T07:31:17" tests="0" file="cypress/book/user_crud/user_crud_spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="user crud testing" timestamp="2022-11-22T07:31:17" tests="1" time="0.0000" failures="1">
+    <testcase name="user crud testing user crud testing" time="0.0000" classname="user crud testing">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; 
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="CypressError"><![CDATA[CypressError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > 
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+Error: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > 
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+Error
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

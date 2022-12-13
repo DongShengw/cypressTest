@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.0000" tests="1" failures="1">
+  <testsuite name="Root Suite" timestamp="2022-11-30T08:36:07" tests="0" file="cypress/book/home/home.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="home testing" timestamp="2022-11-30T08:36:07" tests="1" time="0.0000" failures="1">
+    <testcase name="home testing home testing" time="0.0000" classname="home testing">
+      <failure message="The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  &gt; Request failed with status code 500
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application" type="AxiosError"><![CDATA[AxiosError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.
+
+  > Request failed with status code 500
+
+When Cypress detects uncaught errors originating from your application it will automatically fail the current test.
+
+This behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.
+
+https://on.cypress.io/uncaught-exception-from-application
+]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>

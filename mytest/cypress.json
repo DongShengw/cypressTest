@@ -1,0 +1,16 @@
+{
+  "experimentalStudio": true,
+  "integrationFolder": "cypress/book",
+  "pluginsFile": "cypress/plugins/index.js",
+  "viewportWidth": 1500,
+  "viewportHeight": 800,
+  "defaultCommandTimeout": 10000,
+  "pageLoadTimeout": 100000,
+  "reporter": "junit",
+  "experimentalRunEvents": true,
+  "reporterOptions": {
+    "mochaFile": "cypress/allure-results/test_report-[hash].xml",
+    "embeddedScreenshots": true,
+    "toConsole": true
+  }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="6.9540" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-30T08:38:11" tests="0" file="cypress/book/op_log/op_log.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="dut_irac testing" timestamp="2022-11-30T08:38:11" tests="1" time="6.9540" failures="0">
+    <testcase name="dut_irac testing op log testing" time="6.9540" classname="op log testing">
+    </testcase>
+  </testsuite>
+</testsuites>

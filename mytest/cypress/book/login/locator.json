@@ -1,0 +1,8 @@
+{
+    "loginpage": {
+        "username": "input[type=text]",
+        "password": "input[type=password]",
+        "submit": "button[type=button]",
+        "prompt": ".el-message.el-message--warning>p.el-message__content"
+    }
+}

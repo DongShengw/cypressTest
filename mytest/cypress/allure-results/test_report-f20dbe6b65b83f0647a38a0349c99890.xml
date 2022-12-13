@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="23.7840" tests="1" failures="0">
+  <testsuite name="Root Suite" timestamp="2022-11-22T07:26:51" tests="0" file="cypress/book/dut_curd/dut_curd.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="dut curd testing" timestamp="2022-11-22T07:26:51" tests="1" time="23.7840" failures="0">
+    <testcase name="dut curd testing dut curd testing" time="23.7840" classname="dut curd testing">
+    </testcase>
+  </testsuite>
+</testsuites>

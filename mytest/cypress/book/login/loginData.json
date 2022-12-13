@@ -1,0 +1,39 @@
+{
+    "title": "登录测试",
+    "success": [
+        {
+            "name": "输入正确的用户名和密码，可以登录成功",
+            "username": "zhanglei",
+            "password": "zhanglei123",
+            "validate": {
+                "checkpointer": ["input[type=text]", "have.length", 1]
+            }
+        }
+    ],
+    "failure": [
+        {
+            "name": "输入错误的用户名，提示[账号或者密码有误]",
+            "username": "222",
+            "password": "123456",
+            "validate": {
+                "checkpointer": [".el-message.el-message--warning>p.el-message__content", "contain", "账号或者密码有误"]
+            }
+        },
+        {
+            "name": "输入错误的密码，提示[账号或者密码有误]",
+            "username": "super@outlook.com",
+            "password": "000000",
+            "validate": {
+                "checkpointer": [".el-message.el-message--warning>p.el-message__content", "contain", "账号或者密码有误"]
+            }
+        },
+        {
+            "name": "输入空的用户名和密码，提示[账号或者密码有误]",
+            "username": "",
+            "password": "",
+            "validate": {
+                "checkpointer": [".el-message.el-message--warning>p.el-message__content", "contain", "账号或者密码有误"]
+            }
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "url":"https://booking-dev.clounix.com",
+    "router":{
+        "login":"/login",
+        "reserve":"/admin/reserve",
+        "dutirac":"/admin/dutirac"
+    },
+    "login":{
+        "username":"zhangxue",
+        "password":"zhangxue123"
+    }
+}

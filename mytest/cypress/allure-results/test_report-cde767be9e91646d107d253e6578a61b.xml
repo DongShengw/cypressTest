@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="1.2990" tests="4" failures="0" skipped="3">
+  <testsuite name="Root Suite" timestamp="2022-11-30T08:37:56" tests="0" file="cypress/book/login/login.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="登录测试" timestamp="2022-11-30T08:37:56" tests="4" time="1.2990" failures="0">
+    <testcase name="登录测试 输入正确的用户名和密码，可以登录成功" time="1.2990" classname="输入正确的用户名和密码，可以登录成功">
+    </testcase>
+  </testsuite>
+</testsuites>
